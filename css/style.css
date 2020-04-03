@@ -48,6 +48,7 @@ h5{
 .title-para{
     font-size: 1rem;
     margin-top: 0.5em;
+    line-height: 1.5em;
 }
 .btn-div{
     margin-top: 1em;
@@ -195,7 +196,7 @@ section{
 
 footer{
     background: #2C2C2C;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 4em;
 }
 

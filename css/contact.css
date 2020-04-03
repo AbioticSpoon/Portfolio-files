@@ -1,0 +1,19 @@
+.content .contact{
+    font-size: 5rem;
+}
+.title-para{
+    margin-left: 0.3em;
+}
+
+.icon i{
+    font-size: 1rem;
+    margin-right: 0.7em;
+}
+
+.contact-wrapper p{
+    margin: 0;
+    padding: 0;
+}
+.contact-wrapper{
+    margin-top: 6em;
+}
