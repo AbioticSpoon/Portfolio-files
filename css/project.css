@@ -1,0 +1,87 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #cbcbcb;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+}
+.col-bg-yellow {
+	width: 20%;
+	min-height: 100vh;
+	background: #ffb633;
+}
+.col-main {
+	width: 80%;
+	min-height: 100vh;
+	background: #2c2c2c;
+}
+
+@media screen and (max-width: 768px) {
+	.col-bg-yellow {
+		display: none;
+	}
+	.col-main {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.project-head {
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+.content {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 3em;
+	padding-bottom: 2em;
+}
+.back-icon {
+	font-weight: 200;
+	font-size: 1.2rem;
+	margin-bottom: 2em;
+}
+.back-link {
+	text-decoration: none;
+	color: #ffb633;
+}
+.back-icon i {
+	margin-right: 0.5em;
+}
+.completed {
+	margin-top: 0;
+	padding-top: 0;
+	color: #ffb633;
+}
+
+.btn-div {
+	margin-top: 2em;
+}
+.btn-contact {
+	margin-right: 1.5em;
+	text-decoration: none;
+	color: #ffb633;
+	padding: 0.5em;
+	border: 1.5px solid #ffb633;
+	border-radius: 4px;
+	font-size: 0.8rem;
+	transition: all 0.3s ease-in-out;
+}
+.btn-contact:hover {
+	background: #ffb633;
+	color: white;
+}
+
+.details {
+	margin-top: 3em;
+	font-weight: 200;
+	color: #ffb633;
+}
+
+.content li {
+	padding-bottom: 1em;
+}
